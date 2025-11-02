@@ -38,13 +38,13 @@
 
             <meta-data
                 android:name="com.nothing.glyph.toy.name"
-                android:resource="@string/toy_name_basic" />
+                android:resource="@string/toy_name_jump_game" />
             <meta-data
                 android:name="com.nothing.glyph.toy.image"
                 android:resource="@drawable/test_demo" />
             <meta-data
                 android:name="com.nothing.glyph.toy.summary"
-                android:resource="@string/toy_summary_basic" />
+                android:resource="@string/toy_summary_jump_game" />
             <meta-data
                 android:name="com.nothing.glyph.toy.longpress"
                 android:value="1" />

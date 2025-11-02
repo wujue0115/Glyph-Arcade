@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Nothing Android SDK Demo</string>
-    <string name="toy_name_basic">測試範例</string>
-    <string name="toy_summary_basic">顯示一個基本的圖像在動態燈陣</string>
-    <string name="toy_name_animation">動畫範例</string>
-    <string name="toy_summary_animation">在動態燈陣上的動畫範例</string>
-    <string name="toy_name_glyph_button">Glyph 按鈕範例</string>
-    <string name="toy_summary_glyph_button">當按下 Glyph 按鈕時啟用 Glyph 動態燈陣</string>
+    <string name="app_name">Glyph 跳躍遊戲</string>
+    <string name="settings_title">遊戲設定</string>
+    <string name="settings_section_tilt">傾斜控制</string>
+    <string name="settings_section_tilt_description">調整手機傾斜對水平移動的影響程度。</string>
+    <string name="settings_sensitivity_label">水平靈敏度</string>
+    <string name="settings_sensitivity_current">目前：%.2f 倍</string>
+    <string name="settings_sensitivity_range">範圍：%.1f 倍 – %.1f 倍</string>
+
+    <string name="toy_name_jump_game">跳躍遊戲</string>
+    <string name="toy_summary_jump_game">透過傾斜操控，在燈陣平台上不斷往上攀升。</string>
+
+    <string name="overview_title">遊戲概要</string>
+    <string name="overview_about_title">遊戲介紹</string>
+    <string name="overview_about_body">在 Nothing Phone 3 的 25×25 Glyph 燈陣上向上攀爬，整個遊戲都即時回應你的手機傾斜。</string>
+    <string name="overview_controls_title">操作方式</string>
+    <string name="overview_controls_long_press">- 長按 Glyph 按鈕可啟動、暫停、繼續或重新開始。</string>
+    <string name="overview_controls_tilt">- 左右傾斜手機即可控制水平移動。</string>
+    <string name="overview_controls_goal">- 持續踩在平台上往上前進，掉到視野外就算失敗。</string>
+    <string name="overview_tips_title">小提示</string>
+    <string name="overview_tips_platforms">- 彈性平台會讓你跳得更高，移動平台會在腳下左右滑動。</string>
+    <string name="overview_tips_score">- 遊戲結束時會在燈陣中央顯示你的分數。</string>
+    <string name="overview_button_open_settings">遊戲設定</string>
+    <string name="overview_back_content_description">返回</string>
 </resources>
