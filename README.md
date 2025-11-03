@@ -1,16 +1,14 @@
-# Jump Game for Glyph Matrix
+# GlyphGames
 
 ## About the Game
-This is a jumping game designed specifically for the Nothing Phone 3's Glyph Matrix display. The game features:
-
-- **Physics-based gameplay** with gravity and jumping mechanics
-- **Tilt controls** using the device's accelerometer for left/right movement
-- **Multiple platform types** including normal, bouncy, and moving platforms
-- **Dynamic camera system** that follows the player upward
-- **Scoring system** with high score tracking
+This is a jumping game designed specifically for the Nothing Phone 3's Glyph Matrix display.
 
 ## Game Controls
-- **Long-press** the Glyph Button to start/pause/restart the game
+- **Long-press** the Glyph button:
+  - Home → Start the game
+  - Playing → Pause
+  - Paused → Resume
+  - Game Over → Restart
 - **Tilt** your phone left or right to control the player's horizontal movement
 - **Jump** on platforms to climb higher and increase your score
 - **Avoid falling** off the bottom of the screen
@@ -22,8 +20,6 @@ This is a jumping game designed specifically for the Nothing Phone 3's Glyph Mat
   - Normal platforms (80%) - standard jump
   - Bouncy platforms (15%) - super jump
   - Moving platforms (5%) - horizontal movement
-
-https://github.com/user-attachments/assets/4dbaf7d1-fed0-4a1e-a0eb-38d9cbde046e
 
 ## Requirements
 
