@@ -1,26 +1,31 @@
 <resources>
     <string name="app_name">Glyph Game</string>
 
-    <string name="settings_title">Game Settings</string>
-    <string name="settings_section_tilt">Tilt controls</string>
-    <string name="settings_section_tilt_description">Adjust how strongly the phone tilt moves the player horizontally.</string>
     <string name="settings_sensitivity_label">Horizontal sensitivity</string>
     <string name="settings_sensitivity_current">Current: %.2fx</string>
     <string name="settings_sensitivity_range">Range: %.1fx – %.1fx</string>
 
     <string name="toy_name_jump_game">Jump Game</string>
     <string name="toy_summary_jump_game">Tilt to steer, land on platforms, and climb the Glyph Matrix.</string>
+    <string name="toy_name_snake_game">Snake Game</string>
+    <string name="toy_summary_snake_game">Guide the snake with tilt controls, eat food, and avoid collisions.</string>
 
-    <string name="overview_title">Jump Game overview</string>
-    <string name="overview_about_title">About the game</string>
-    <string name="overview_about_body">Bounce your way up the Nothing Phone 3 Glyph Matrix. The service renders entirely on the 25×25 LEDs and reacts instantly to device tilt.</string>
-    <string name="overview_controls_title">Controls</string>
-    <string name="overview_controls_long_press">- Long-press the Glyph button to start, pause, resume, or restart.</string>
-    <string name="overview_controls_tilt">- Tilt left or right to steer the player horizontally.</string>
-    <string name="overview_controls_goal">- Stay above the camera by landing on platforms; falling ends the run.</string>
-    <string name="overview_tips_title">Tips</string>
-    <string name="overview_tips_platforms">- Bouncy platforms launch you higher; moving platforms slide underneath you.</string>
-    <string name="overview_tips_score">- Your score appears centered on the matrix when the game ends.</string>
-    <string name="overview_button_open_settings">Game Settings</string>
+    <string name="games_overview_title">Glyph mini-games</string>
+    <string name="games_overview_subtitle">Choose a game to learn the rules and adjust tilt sensitivity.</string>
+    <string name="games_card_button">View details</string>
+
+    <string name="game_jump_title">Jump Game</string>
+    <string name="game_jump_summary">Climb endless platforms and avoid falling off the Glyph Matrix.</string>
+    <string name="game_jump_description">Bounce upward by landing on platforms that regenerate as you ascend. Gravity constantly drags you down while the screen wraps horizontally.</string>
+    <string name="game_jump_controls">Long-press the Glyph button to start, pause, or resume. Tilt left or right to move across the board and never fall beneath the camera.</string>
+
+    <string name="game_snake_title">Snake Game</string>
+    <string name="game_snake_summary">Guide the snake through a circular matrix, eat food, and avoid collisions.</string>
+    <string name="game_snake_description">Navigate a round 25×25 arena where food spawns anywhere inside the lit circle. Each bite grows the snake and speeds up the loop.</string>
+    <string name="game_snake_controls">Long-press the Glyph button to start, pause, or resume. Gentle horizontal tilts steer left/right, stronger vertical tilts move up/down, and touching a wall wraps you to the opposite edge.</string>
+
+    <string name="game_detail_controls_title">How to play</string>
+    <string name="game_detail_settings_title">Settings</string>
+    <string name="game_detail_settings_description">Horizontal tilt sensitivity is shared across games. Increase it for faster moves or lower it for tighter control.</string>
     <string name="overview_back_content_description">Back</string>
 </resources>

@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Glyph 遊戲</string>
-    <string name="settings_title">遊戲設定</string>
-    <string name="settings_section_tilt">傾斜控制</string>
-    <string name="settings_section_tilt_description">調整手機傾斜對水平移動的影響程度。</string>
     <string name="settings_sensitivity_label">水平靈敏度</string>
     <string name="settings_sensitivity_current">目前：%.2f 倍</string>
     <string name="settings_sensitivity_range">範圍：%.1f 倍 – %.1f 倍</string>
 
     <string name="toy_name_jump_game">跳躍遊戲</string>
     <string name="toy_summary_jump_game">透過傾斜操控，在燈陣平台上不斷往上攀升。</string>
+    <string name="toy_name_snake_game">貪吃蛇遊戲</string>
+    <string name="toy_summary_snake_game">透過傾斜方向引導蛇前進，吃掉食物並避免撞到自己或牆面。</string>
 
-    <string name="overview_title">遊戲概要</string>
-    <string name="overview_about_title">遊戲介紹</string>
-    <string name="overview_about_body">在 Nothing Phone 3 的 25×25 Glyph 燈陣上向上攀爬，整個遊戲都即時回應你的手機傾斜。</string>
-    <string name="overview_controls_title">操作方式</string>
-    <string name="overview_controls_long_press">- 長按 Glyph 按鈕可啟動、暫停、繼續或重新開始。</string>
-    <string name="overview_controls_tilt">- 左右傾斜手機即可控制水平移動。</string>
-    <string name="overview_controls_goal">- 持續踩在平台上往上前進，掉到視野外就算失敗。</string>
-    <string name="overview_tips_title">小提示</string>
-    <string name="overview_tips_platforms">- 彈性平台會讓你跳得更高，移動平台會在腳下左右滑動。</string>
-    <string name="overview_tips_score">- 遊戲結束時會在燈陣中央顯示你的分數。</string>
-    <string name="overview_button_open_settings">遊戲設定</string>
+    <string name="games_overview_title">Glyph 小遊戲</string>
+    <string name="games_overview_subtitle">選擇任一遊戲即可閱讀玩法並調整傾斜靈敏度。</string>
+    <string name="games_card_button">查看詳情</string>
+
+    <string name="game_jump_title">跳躍遊戲</string>
+    <string name="game_jump_summary">持續踩著平台往上飛，別從 Glyph 燈陣掉落。</string>
+    <string name="game_jump_description">踩上平台就能向上彈跳，越高的平台越少。重力會把你往下拉，畫面左右相通，可以快速切換到另一側。</string>
+    <string name="game_jump_controls">長按 Glyph 按鈕即可開始、暫停或繼續。左右傾斜手機來移動，務必在掉出視野前踩到下一個平台。</string>
+
+    <string name="game_snake_title">貪吃蛇遊戲</string>
+    <string name="game_snake_summary">在圓形棋盤上引導貪吃蛇吃食物、避免撞到自己。</string>
+    <string name="game_snake_description">25×25 的圓形範圍內會隨機生成食物，每吃一顆蛇身就變長、速度更快。撞到圓邊會從另一側穿出繼續前進。</string>
+    <string name="game_snake_controls">長按 Glyph 按鈕可開始、暫停或繼續。稍微傾斜即可左右轉向，更明顯的上下傾斜則會改變垂直方向。</string>
+
+    <string name="game_detail_controls_title">玩法介紹</string>
+    <string name="game_detail_settings_title">可調整設定</string>
+    <string name="game_detail_settings_description">水平傾斜靈敏度為兩款遊戲共用。提高可加快移動、降低則能更精細地控制。</string>
     <string name="overview_back_content_description">返回</string>
 </resources>

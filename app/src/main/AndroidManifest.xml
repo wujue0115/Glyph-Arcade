@@ -41,10 +41,33 @@
                 android:resource="@string/toy_name_jump_game" />
             <meta-data
                 android:name="com.nothing.glyph.toy.image"
-                android:resource="@drawable/glyph_game" />
+                android:resource="@drawable/jump_game" />
             <meta-data
                 android:name="com.nothing.glyph.toy.summary"
                 android:resource="@string/toy_summary_jump_game" />
+            <meta-data
+                android:name="com.nothing.glyph.toy.longpress"
+                android:value="1" />
+        </service>
+
+        <!-- Snake Game Service -->
+        <service
+            android:name=".games.snake.SnakeGameService"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.nothing.glyph.TOY" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.nothing.glyph.toy.name"
+                android:resource="@string/toy_name_snake_game" />
+            <meta-data
+                android:name="com.nothing.glyph.toy.image"
+                android:resource="@drawable/snake_game" />
+            <meta-data
+                android:name="com.nothing.glyph.toy.summary"
+                android:resource="@string/toy_summary_snake_game" />
             <meta-data
                 android:name="com.nothing.glyph.toy.longpress"
                 android:value="1" />
