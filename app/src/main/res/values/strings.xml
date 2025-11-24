@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Glyph Game</string>
+    <string name="app_name">Glyph Arcade</string>
 
     <string name="settings_sensitivity_label">Horizontal sensitivity</string>
     <string name="settings_sensitivity_current">Current: %.2fx</string>

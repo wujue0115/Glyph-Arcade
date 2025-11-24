@@ -1,4 +1,4 @@
-# GlyphGames
+# Glyph Arcade
 
 ## About the Game
 This is a jumping game designed specifically for the Nothing Phone 3's Glyph Matrix display.

@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GlyphDemo"
+rootProject.name = "Glyph Arcade"
 include(":app")
