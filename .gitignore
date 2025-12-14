@@ -20,4 +20,8 @@ keystore/
 
 keystore.properties
 
+/release
+**/*.aab
+
+
 
